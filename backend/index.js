@@ -17,7 +17,7 @@ let app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
- origin:["https://suitlounge-1-frontendone.onrender.com" , "http://localhost:5174"],
+ origin:["https://suitlounge-1-frontendone.onrender.com" , "https://suitlounge-1-admin.onrender.com"],
  credentials:true
 }))
 
